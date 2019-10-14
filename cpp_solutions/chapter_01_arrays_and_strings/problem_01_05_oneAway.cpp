@@ -34,6 +34,7 @@ Space complexity: O(1)
 #include "problem_01_05_oneAway.h"
 #include <stdlib.h>
 #include <assert.h>
+#include <stdio.h>
 
 bool searchInsertion(const std::string &s1, const std::string &s2) {
     assert(abs(static_cast<int>(s1.size() - s2.size())) == 1);
